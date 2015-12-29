@@ -9,7 +9,7 @@ type Vertex struct {
 func main() {
 	m := make(map[string]Vertex)
 	m["Bell Labs"] = Vertex{
-		40.6433, 74.39967,
+		40.3433, 74.39967,
 	}
 	fmt.Println(m["Bell Labs"])
 }
